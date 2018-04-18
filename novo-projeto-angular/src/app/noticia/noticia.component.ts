@@ -8,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class NoticiaComponent implements OnInit {
 
   noticias: string[] = ["Noticia1", "Noticia2", "Noticia3", "Noticia4"];
+  mostrarNoticia: boolean = true;
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public esconderNoticia() {
+    this.mostrarNoticia = false;
   }
 
 }
