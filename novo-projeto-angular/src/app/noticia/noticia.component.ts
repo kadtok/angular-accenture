@@ -19,4 +19,8 @@ export class NoticiaComponent implements OnInit {
     this.mostrarNoticia = false;
   }
 
+  public mostrarNoticias() {
+    this.mostrarNoticia = true;
+  }
+
 }

@@ -12,4 +12,8 @@ export class AlertaComponent implements OnInit {
   ngOnInit() {
   }
 
+  public abreAlerta(){
+    alert("Não é LogIn!");
+  }
+
 }
