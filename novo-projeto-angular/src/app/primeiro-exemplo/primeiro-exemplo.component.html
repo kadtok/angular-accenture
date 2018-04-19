@@ -1,3 +1,11 @@
-<div class="col-md-3">
+<div class="col-md-10">
+  <div class="jumbotron">
+    <h1 class="display-4">Primeiro exemplo!</h1>
+    <p class="lead">Event binding e property binding.</p>
+    <hr class="my-4">
+    <label for="nome">Qual é seu nome?</label>
+    <input class="form-control form-control-lg" type="text" id="nome" [value]="nome" (input)="atualizaNome($event)">
+    <p>Meu nome é {{ nome }}!!</p>
+  </div>
 
 </div>
