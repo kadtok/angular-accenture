@@ -7,6 +7,7 @@ import { TopoComponent } from './topo/topo.component';
 import { AppRodapeComponent } from './app-rodape/app-rodape.component';
 import { NoticiaComponent } from './noticia/noticia.component';
 import { AlertaComponent } from './alerta/alerta.component';
+import { PrimeiroExemploComponent } from './primeiro-exemplo/primeiro-exemplo.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { AlertaComponent } from './alerta/alerta.component';
     TopoComponent,
     AppRodapeComponent,
     NoticiaComponent,
-    AlertaComponent
+    AlertaComponent,
+    PrimeiroExemploComponent
 
   ],
   imports: [
